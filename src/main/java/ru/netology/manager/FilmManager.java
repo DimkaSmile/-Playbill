@@ -1,18 +1,18 @@
 package ru.netology.manager;
 
 public class FilmManager {
-    private AddendumFilm[] items = new AddendumFilm[0]; //завели поле(собственную память)
+    private AddendumFilm[] items = new AddendumFilm[0]; 
 
 
     public void save(AddendumFilm item) {
-        int length = items.length + 1; //создаем новый массив на единицу больше
-        AddendumFilm[] tmp = new AddendumFilm[length]; // создали временный массив
-        // for (int i = 0; i < items.length; i++) { //сделали цикл
+        int length = items.length + 1; 
+        AddendumFilm[] tmp = new AddendumFilm[length];
+        // for (int i = 0; i < items.length; i++) { 
         //    tmp[i] = items[i];
         //  }
-        System.arraycopy(items, 0, tmp, 0, items.length); //указали откуда и куда копируем
-        int lastIndex = tmp.length - 1; //вычисляем последнюю ячейку нового массива и ее заполняем
-        tmp[lastIndex] = item; // вычисляем элемент
+        System.arraycopy(items, 0, tmp, 0, items.length); 
+        int lastIndex = tmp.length - 1; 
+        tmp[lastIndex] = item; 
         items = tmp;
     }
 
