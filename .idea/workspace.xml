@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27c149df-9297-4e86-925d-98cda74353a0" name="Changes" comment="ready to ship commit">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/manager/AddendumFilm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/manager/AddendumFilm.java" afterDir="false" />
+    <list default="true" id="27c149df-9297-4e86-925d-98cda74353a0" name="Changes" comment="corrected task commit">
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/manager/FilmManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/manager/FilmManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/FilmManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/manager/FilmManagerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,7 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657218109770</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="corrected task commit">
+      <created>1658172267309</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1658172267309</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -177,6 +181,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="second commit" />
     <MESSAGE value="ready to ship commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="ready to ship commit" />
+    <MESSAGE value="corrected task commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="corrected task commit" />
   </component>
 </project>
