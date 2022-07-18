@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="27c149df-9297-4e86-925d-98cda74353a0" name="Changes" comment="corrected task commit">
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/manager/FilmManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/manager/FilmManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
