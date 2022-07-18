@@ -2,7 +2,14 @@ package ru.netology.manager;
 
 public class FilmManager {
     private AddendumFilm[] items = new AddendumFilm[0]; //завели поле(собственную память)
+    private int limit;
 
+    public FilmManager() {
+        limit = 10;
+    }
+    public FilmManager (int limit) {
+        this.limit = limit;
+    }
 
     public void save(AddendumFilm item) {
         int length = items.length + 1; //создаем новый массив на единицу больше
@@ -23,15 +30,15 @@ public class FilmManager {
     }
 
     public AddendumFilm[] findLast() {
-        int resultLength = items.length;
-        int lastIndex = 10;
-        if (resultLength > lastIndex) {
-            resultLength = lastIndex;
-        } else resultLength = items.length;
-        AddendumFilm[] result = new AddendumFilm[items.length];
-        for (int i = 0; i < resultLength; i++) {
-            int index = items.length - i - 1;
-            result[i] = items[index];
+        int resultLength;
+        if (items.length < limit) {
+            resultLength = items.length;
+        } else {
+            resultLength = limit;
+        }
+        AddendumFilm[] result = new AddendumFilm[resultLength];
+        for (int i = 0; i < result.length; i++) {
+            result[i] = items[items.length - 1 - i];
         }
         return result;
 

@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27c149df-9297-4e86-925d-98cda74353a0" name="Changes" comment="second commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/netology/manager/AddendumFilm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/netology/manager/FilmManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/FilmManagerTest.java" afterDir="false" />
+    <list default="true" id="27c149df-9297-4e86-925d-98cda74353a0" name="Changes" comment="ready to ship commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/manager/AddendumFilm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/manager/AddendumFilm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/manager/FilmManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/manager/FilmManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/FilmManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/manager/FilmManagerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +28,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
   <component name="ProjectId" id="2BZybujDfXOLP9iI8TOcITCL6xy" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -40,7 +43,8 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_directory_selection": "J:/java/Playbill/src/main/java"
+    "last_directory_selection": "J:/java/Playbill/src/test/java",
+    "last_opened_file_path": "J:/java/Playbill"
   }
 }]]></component>
   <component name="RunManager" selected="JUnit.FilmManagerTest">
@@ -48,7 +52,7 @@
       <module name="Playbill" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.netology.manager.*" />
+          <option name="PATTERN" value="ru.netology.manager.FilmManagerTest" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -59,11 +63,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FilmManagerTest.findLast" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Playbill" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.netology.manager.FilmManagerTest" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.netology.manager" />
+      <option name="MAIN_CLASS_NAME" value="ru.netology.manager.FilmManagerTest" />
+      <option name="METHOD_NAME" value="findLast" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FilmManagerTest.findLast4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Playbill" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.netology.manager.*" />
+          <option name="PATTERN" value="ru.netology.manager.FilmManagerTest" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -75,9 +95,44 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FilmManagerTest.findLast5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Playbill" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.netology.manager.FilmManagerTest" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.netology.manager" />
+      <option name="MAIN_CLASS_NAME" value="ru.netology.manager.FilmManagerTest" />
+      <option name="METHOD_NAME" value="findLast5" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FilmManagerTest.shouldSaveAddendumFilm" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Playbill" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.netology.manager.FilmManagerTest" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.netology.manager" />
+      <option name="MAIN_CLASS_NAME" value="ru.netology.manager.FilmManagerTest" />
+      <option name="METHOD_NAME" value="shouldSaveAddendumFilm" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.FilmManagerTest" />
+        <item itemvalue="JUnit.FilmManagerTest.shouldSaveAddendumFilm" />
+        <item itemvalue="JUnit.FilmManagerTest.findLast" />
+        <item itemvalue="JUnit.FilmManagerTest.findLast5" />
         <item itemvalue="JUnit.FilmManagerTest.findLast4" />
       </list>
     </recent_temporary>
@@ -98,7 +153,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657128392472</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="ready to ship commit">
+      <created>1657218109770</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1657218109770</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -114,6 +176,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="second commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="second commit" />
+    <MESSAGE value="ready to ship commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="ready to ship commit" />
   </component>
 </project>

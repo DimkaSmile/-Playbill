@@ -9,7 +9,7 @@ import lombok.NoArgsConstructor;
 @Data
 
 public class AddendumFilm {
-    public int length;
+    private int length;
     private int id;
     private String filmName;
     private String filmGenre;
