@@ -1,13 +1,11 @@
 package ru.netology.manager;
 
 public class FilmManager {
-<<<<<<< HEAD
+
     private AddendumFilm[] items = new AddendumFilm[0]; //завели поле(собственную память)
     private int limit;
-=======
-    private AddendumFilm[] items = new AddendumFilm[0]; 
->>>>>>> origin/main
 
+    
     public FilmManager() {
         limit = 10;
     }
